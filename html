@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Online Grocery Store</h1>
+    <div class="grocery-list">
+        <div class="item">
+            <h2>Apples</h2>
+            <p>$2 per kg</p>
+            <button onclick="addToCart('Apples', 2)">Add to Cart</button>
+        </div>
+        <div class="item">
+            <h2>Milk</h2>
+            <p>$1.5 per liter</p>
+            <button onclick="addToCart('Milk', 1.5)">Add to Cart</button>
+        </div>
+    </div>
+    <h2>Cart</h2>
+    <ul id="cart"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
